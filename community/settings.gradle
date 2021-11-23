@@ -1,0 +1,6 @@
+rootProject.name = 'demo'
+
+//demo-web 모듈 생성
+include 'demo-web'
+include 'demo-domain'
+

@@ -1,0 +1,15 @@
+server:
+  port: 9080
+---
+spring:
+  profiles: local
+server:
+  port: 9090
+---
+
+#@Value 프로퍼티 추가하기
+property:
+  test:
+      name: property depth test
+propertyTest: test
+propertyTestList: a,b,c
