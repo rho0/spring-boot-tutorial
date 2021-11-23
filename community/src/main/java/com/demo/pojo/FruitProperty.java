@@ -12,7 +12,8 @@ import java.util.Map;
 @Component
 @ConfigurationProperties("fruit") //application.yml의 프로퍼티값들은 아래 FruitProperty클래스의 list 필드로 바인딩 됨
 public class FruitProperty {
-    private List<Map> list;
-//    private List<Fruit> list;
+//    private List<Map> list;
+    private List<Fruit> list;
+
 
 }
