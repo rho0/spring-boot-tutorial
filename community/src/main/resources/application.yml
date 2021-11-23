@@ -6,10 +6,20 @@ spring:
 server:
   port: 9090
 ---
-
 #@Value 프로퍼티 추가하기
 property:
   test:
       name: property depth test
 propertyTest: test
 propertyTestList: a,b,c
+
+---
+#@Configurationproperties 프로퍼티 추가
+fruit:
+  list:
+    - name: banana
+      color: yellow
+    - name: apple
+      color: red
+    - name: water melon
+      color: green
